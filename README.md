@@ -7,25 +7,25 @@ There are 3 missionaries and 3 cannibal on the left bank of a river, together wi
 
 ### How to use
 - First, install requirement libraries .
-  """
+  '''
   Pip install -r requirements.txt
-  """
+  '''
 - The given code had the graph to use (state_space_x) but if you want to generate other graph, go to terminal and type:
-  """
+  '''
   python generate_full_space_tree.py -d x
   ###With x is height of the tree
-  """
+  '''
 - Solve problems:
-  """
+  '''
   ##With BFS
   python main.py -m bfs
   ##With DFS
   python main.py -m dfs
-  """
+  '''
   The main.py will return you  each step to solve and return a png solve file
   Optional you can return png with legend
-  """
+  '''
   ## DFS with legend
   python main.py -m dfs -l True
-  """
+  '''
   
